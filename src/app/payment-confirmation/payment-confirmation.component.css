@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+.container>div{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+p{
+    font-size: 15px;
+}
+
+.bold{
+    font-weight:500;
+}
+
+.message,.message>p{
+    display:flex;
+    flex-direction: column;
+}
+
+.receipt{
+    padding: 20px 0px 20px 0px;
+}
+
+.receipt>div{
+    display:flex;
+    justify-content:space-between;
+}
+
+.downloadInvoiceBtn{
+
+    border:none;
+    color:red;
+    background-color: white;
+}
+
+.orderSummary{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 1px solid;
+    border-color: #1c1e1e1f;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.orderSummary>ul{
+    display:flex;
+    flex-direction:column;
+    list-style: none;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container{
+    padding: 20px;
+}
+
