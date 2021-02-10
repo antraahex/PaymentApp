@@ -1,38 +1,38 @@
-
 <div class="container">
-            <div >
-                <h2>Payment confirmation</h2>
-                <div class="left-container">
-                    <div class="message">
-                        <p class="bold">Thank you for subscribing!</p>
-                        <small>Your membership will continue unless you cancel.You will be charged on <span class="bold">Sunday, 07 March 2021</span>
-                            </small>
-                    </div>
-        
-                    <div class="receipt">
-                        <div>
-                            <h3 class="bold">Receipt</h3>
-                            <button class="downloadInvoiceBtn">Download invoice</button>
-                        </div>
-                        <div class="orderSummary">
-                                <ul>
-                                    <li>Date</li>
-                                    <li>Order ID</li>
-                                    <li>Payment Mode</li>
-                                </ul>
-                                <ul>
-                                    <li>{{date | date}}</li>
-                                    <li>Order ID</li>
-                                    <li>Payment Mode</li>
-                                </ul>
-                        </div>
-                        <div class="total">
-                            <p class="bold">TOTAL</p>
-                            <p id="price" class="bold">INR 99.00</p>
-                        </div>  
-                    </div>
-        
-                    <button class="btn btn-primary">Start Watching</button>
+    <div>
+        <h2>Payment confirmation</h2>
+        <div class="left-container">
+            <div class="message">
+                <p class="bold">Thank you for subscribing!</p>
+                <small>Your membership will continue unless you cancel.You will be charged on <span class="bold">Sunday,
+                        07 March 2021</span>
+                </small>
+            </div>
+
+            <div class="receipt">
+                <div>
+                    <h3 class="bold">Receipt</h3>
+                    <button class="downloadInvoiceBtn">Download invoice</button>
                 </div>
-          </div>
+                <div class="orderSummary">
+                    <ul>
+                        <li>Date</li>
+                        <li>Order ID</li>
+                        <li>Payment Mode</li>
+                    </ul>
+                    <ul>
+                        <li>{{date | date}}</li>
+                        <li>Order ID</li>
+                        <li>Payment Mode</li>
+                    </ul>
+                </div>
+                <div class="total">
+                    <p class="bold">TOTAL</p>
+                    <p id="price" class="bold">INR 99.00</p>
+                </div>
+            </div>
+
+            <button class="btn btn-primary">Start Watching</button>
+        </div>
+    </div>
 </div>
