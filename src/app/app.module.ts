@@ -10,16 +10,12 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
-import { PDFExportModule } from '@progress/kendo-angular-pdf-export';
-import { IntlModule } from '@progress/kendo-angular-intl';
-import { GridModule } from '@progress/kendo-angular-grid';
-import { InvoiceComponent } from './invoice.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PaymentConfirmationComponent,
-    InvoiceComponent
+    PaymentConfirmationComponent
   ],
   imports: [
     BrowserModule,
@@ -30,13 +26,9 @@ import { InvoiceComponent } from './invoice.component';
     MatStepperModule,
     MatInputModule,
     MatFormFieldModule,
-    MatButtonModule,
-    IntlModule,
-    GridModule,
-    PDFExportModule
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [GridModule]
 })
 export class AppModule { }
